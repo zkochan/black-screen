@@ -51,8 +51,8 @@ export default React.createClass({
         };
     },
     componentDidMount() {
-        $(this.getDOMNode()).fixedsticky();
-        $('.fixedsticky-dummy').remove();
+        //$(this.getDOMNode()).fixedsticky();
+        //$('.fixedsticky-dummy').remove();
 
         this.getInputNode().focus();
     },
@@ -68,7 +68,7 @@ export default React.createClass({
             this.setState({caretOffset: $(inputNode).caret('offset')});
         }
 
-        scrollToBottom();
+        //scrollToBottom();
     },
     execute() {
         if (!this.isEmpty()) {

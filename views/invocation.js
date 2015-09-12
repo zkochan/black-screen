@@ -7,7 +7,7 @@ export default React.createClass({
             .on('data', _ => this.setState({canBeDecorated: this.props.invocation.canBeDecorated()}))
             .on('status', status => this.setState({status: status}));
     },
-    componentDidUpdate: scrollToBottom,
+    //componentDidUpdate: scrollToBottom,
 
     getInitialState() {
         return {
