@@ -5,3 +5,4 @@ var mocha = new Mocha();
 Mocha.utils.lookupFiles(testDir, ['js'], true).forEach(mocha.addFile.bind(mocha));
 
 mocha.run(process.exit);
+sdf
